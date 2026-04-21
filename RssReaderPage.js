@@ -81,7 +81,7 @@ const parseXmlSafe = (d) => {
 
     const replace = (xml, tag) => {
         const el = xml.querySelector(tag);
-        return el ? el.textContent : '';
+        return (el ? el.textContent : '') || '';
     };
 
     const channel = xmlDoc.querySelector('channel');
