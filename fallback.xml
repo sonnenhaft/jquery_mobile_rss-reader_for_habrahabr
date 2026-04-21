@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+    <channel>
+        <title><![CDATA[Лучшие публикации за неделю ]]></title>
+        <link>https://habr.com/ru/articles/top/weekly/</link>
+        <description><![CDATA[Лучшие публикации за последние 7 дней ]]></description>
+        <language>ru</language>
+        <managingEditor>editor@habr.com</managingEditor>
+        <generator>habr.com</generator>
+        <pubDate>Tue, 21 Apr 2026 13:23:24 GMT</pubDate>
+
+
+        <image>
+            <link>https://habr.com/ru/</link>
+            <url>https://habrastorage.org/webt/ym/el/wk/ymelwk3zy1gawz4nkejl_-ammtc.png</url>
+            <title>Хабр</title>
+        </image>
+
+
+        <item>
+            <title><![CDATA[МиГ-25: как главный советский истребитель 70-х попал в руки США]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/companies/selectel/articles/1023100/</guid>
+            <link>https://habr.com/ru/companies/selectel/articles/1023100/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1023100</link>
+            <description>
+                <![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/0fd/452/519/0fd45251928951ab1442edc6e5238d91.jpg" /><p>6 сентября 1976 года, 06:45. Военный аэродром Соколовка в Приморском крае. Старший лейтенант Виктор Беленко, 29 лет, поднимает в воздух МиГ-25П с бортовым номером 31. По плану — обычное полетное упражнение. Через два часа этот самолет будет стоять с выкатыванием за полосу гражданского аэропорта Хакодате в Японии, а Беленко двумя выстрелами из ПМ отгонит от него японских полицейских.</p><p>В следующие 67 дней МиГ-25 разберут до последней заклепки в ангаре авиабазы Ацуги под Токио. Директор ЦРУ Джордж Буш (тот самый, будущий 41-й президент США) назовет это «золотым днем разведки». А СССР потратит около двух миллиардов рублей на экстренную замену системы «свой-чужой» по всему флоту военной авиации и ПВО.</p><p>Инженеры Foreign Technology Division ВВС США, Lockheed, Pratt &amp; Whitney и Hughes Aircraft сделают выводы, от которых десятилетняя модель советского «суперистребителя» рассыплется на несколько категорий сразу. Эти выводы, на мой взгляд, самая интересная часть всей истории.</p> <a href="https://habr.com/ru/articles/1023100/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1023100#habracut">ding!</a>]]></description>
+
+            <pubDate>Fri, 17 Apr 2026 08:00:17 GMT</pubDate>
+            <dc:creator><![CDATA[pilot_artem (Selectel)]]></dc:creator>
+
+            <category><![CDATA[МиГ-25]]></category>
+            <category><![CDATA[selectel]]></category>
+            <category><![CDATA[авиация]]></category>
+        </item>
+
+
+        <item>
+            <title>
+                <![CDATA[Мыслепреступление на Android: как скрыть Перехватчик трафика от Государственных приложений]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/articles/1024890/</guid>
+            <link>
+                https://habr.com/ru/articles/1024890/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1024890
+            </link>
+            <description>
+                <![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/8f9/330/a1b/8f9330a1bf004ee2feb9ec6f1192b525.png" /><p>Государство усиливает заботу о гражданах: крупные сервисы и государственные приложения на Android всё активнее выявляют использование Перехватчиков трафика. Разбираемся, какими методами ведётся это наблюдение — и что Ненадёжные элементы противопоставляют Праведному взору Государства.  </p> <a href="https://habr.com/ru/articles/1024890/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1024890#habracut">Читать далее</a>]]></description>
+
+            <pubDate>Sat, 18 Apr 2026 01:12:25 GMT</pubDate>
+            <dc:creator><![CDATA[66demon666]]></dc:creator>
+
+            <category><![CDATA[root]]></category>
+            <category><![CDATA[android]]></category>
+            <category><![CDATA[vpn]]></category>
+            <category><![CDATA[xposed]]></category>
+            <category><![CDATA[privacy]]></category>
+        </item>
+
+
+        <item>
+            <title><![CDATA[[Перевод] Win32 API и ностальгия по окнам странной формы]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/articles/1025204/</guid>
+            <link>
+                https://habr.com/ru/articles/1025204/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1025204
+            </link>
+            <description>
+                <![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/cf3/1a3/81f/cf31a381fef9be5fc78b12c10cea0aeb.jpg" /><p>Я по горло сыт стандартно выглядящими приложениями. Сегодня все десктопные приложения  Windows выглядят одинаково, да и внутри устроены одинаково: их создают на основе дурацких браузерных обёрток React, Electron, electronbun и Tauri, имитирующих реальные десктопные приложения. Они медленно работают и занимают кучу памяти — по сути, это bloatware. Блокнот — это, блин, приложение для простых ЗАМЕТОК, а не замена Word, калькулятор — это калькулятор, а не планировщик лунной миссии НАСА. На каком-то этапе Microsoft сбилась с курса, как будто сдалась и передала бразды правления куче веб-разработчиков, незнакомых с концепцией оптимизации.</p><p>Чёртов Блокнот занимает в памяти почти 50 МБ, хотя эквивалентное приложение, написанное на чистом Win32 C, занимает 1,8 МБ. Вроде бы, по современным меркам 50 МБ — это не так много, но в том-то и смысл: эти мегабайты постепенно накапливаются. Недавно я купил новый Intel Ultra 9 285 с 32 ГБ ОЗУ, но при запуске Windows 11 память уже была заполнена на 77%.</p><p>Программирование на Win32 API — утерянное ныне искусство; я с ностальгией вспоминаю, как когда-то программировали приложения для Windows. Процесс был запутанным, но обеспечивал полный контроль.</p> <a href="https://habr.com/ru/articles/1025204/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1025204#habracut">Читать далее</a>]]></description>
+
+            <pubDate>Mon, 20 Apr 2026 05:16:03 GMT</pubDate>
+            <dc:creator><![CDATA[PatientZero]]></dc:creator>
+
+            <category>win32 api</category>
+            <category>win32</category>
+            <category>скины</category>
+        </item>
+
+
+        <item>
+            <title><![CDATA[PAYDAY по-аргентински]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/articles/1024804/</guid>
+            <link>
+                https://habr.com/ru/articles/1024804/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1024804
+            </link>
+            <description>
+                <![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/b93/1a5/7fe/b931a57fe167a5370c864b1c3994d471.png" /><p>На дворе 13 января 2006 года. Обычный солнечный день, который, казалось бы, не предвещал чего-то особенного. Работники местного банка рутинно занимались своей работой, обслуживая состоятельных и не очень клиентов, пока в 12:20 не зашли несколько мужчин в презентабельных костюмах и… масках. Точнее, один был в добротном пиджаке и брюках, другой – в розовой рубашке, а третий облачился в докторский халат… Всё бы ничего, мало ли кто заходит в банк по своим финансовым вопросикам, вот только эти ребята пришли не открывать депозиты, а вскрывать их. Потому мальчики-налетчики достали стволы и самый выделяющийся господин, которого позже все местные СМИ нарекут «Человеком в сером костюме», громко объявил: «Это ограбление!». И началось представление — скорее цирк, правда, для остальных участников не очень смешной…</p> <a href="https://habr.com/ru/articles/1024804/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1024804#habracut">Читать далее</a>]]></description>
+
+            <pubDate>Fri, 17 Apr 2026 17:05:54 GMT</pubDate>
+            <dc:creator><![CDATA[Shyhartskoi]]></dc:creator>
+
+            <category><![CDATA[аргентина]]></category>
+            <category><![CDATA[история]]></category>
+            <category><![CDATA[история успеха]]></category>
+            <category><![CDATA[ограбление банка]]></category>
+            <category><![CDATA[payday]]></category>
+        </item>
+
+
+        <item>
+            <title><![CDATA[Ракетный щит СССР]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/articles/1023600/</guid>
+            <link>
+                https://habr.com/ru/articles/1023600/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1023600
+            </link>
+            <description>
+                <![CDATA[<p>Это интервью я записал в 2014&nbsp;году. Так получилось (и это моя вина), что&nbsp;сразу до&nbsp;материала не&nbsp;дошли руки, потом&nbsp;были другие дела и, в&nbsp;общем, запись потерялась. Недавно я, разгребая старые архивы, нашёл её в&nbsp;закромах Родины, и вот&nbsp;— дело 12-летней давности завершено.</p><p>Мой визави Анатолий Степанович Глушко&nbsp;— один из&nbsp;создателей софтверной части системы противоракетной защиты Советского Союза.</p><p><em>Я даю текст интервью практически необработанным, с&nbsp;минимальными исправлениями. Интервью было несколько спонтанным, но, мне кажется, оно представляет изрядный интерес.</em></p> <a href="https://habr.com/ru/articles/1023600/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1023600#habracut">Читать далее</a>]]></description>
+
+            <pubDate>Tue, 14 Apr 2026 23:28:35 GMT</pubDate>
+            <dc:creator><![CDATA[dzavalishin]]></dc:creator>
+
+            <category><![CDATA[ссср]]></category>
+            <category><![CDATA[рвсн]]></category>
+            <category><![CDATA[радары]]></category>
+            <category><![CDATA[радарные системы]]></category>
+        </item>
+
+
+        <item>
+            <title><![CDATA[Лимиты на «Иностранный трафик» и борьба с VPN-сервисами]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/articles/1024246/</guid>
+            <link>
+                https://habr.com/ru/articles/1024246/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1024246
+            </link>
+            <description>
+                <![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/300/b3b/9f4/300b3b9f488d79315bc8db64cf1d9629.jpg" /><p>Вы открываете YouTube, Twitch или просто обновляете приложение — и, возможно, уже скоро за это придётся платить как за «иностранный трафик».</p><p>По обсуждаемым инициативам, после 15 ГБ в месяц каждый дополнительный гигабайт может стоить около <strong>150 рублей</strong> — формально для борьбы с VPN.</p><p>Звучит просто: VPN = зарубежный сервер = иностранный трафик.<br>Значит, нужно просто посчитать и ограничить.</p><p>Проблема в том, что интернет так не работает.</p><p>Тот же Twitch сегодня может отдавать вам видео из локального кэша в вашем городе, а завтра — из Франкфурта. API вашего приложения может находиться в Нидерландах, а сайт с российским доменом — работать через зарубежный CDN.</p><p>И в какой-то момент становится непонятно: <strong>где вообще проходит граница между «нашим» и «чужим» трафиком?</strong></p><p>Я решил разобраться в этом с технической стороны:</p><p> - что на самом деле видит провайдер </p><p> - почему он не может «заглянуть внутрь» вашего трафика </p><p> - как устроены VPN и чем они отличаются (или не отличаются) от обычного HTTPS </p><p> - можно ли реально отличить VPN от обычного трафика </p><p> - и почему идея считать «иностранные гигабайты» выглядит куда более спорной, чем кажется </p><p>И главный вопрос, к которому всё это приводит: <strong>можно ли вообще технически корректно реализовать такие ограничения да так, чтобы не сломать половину интернета?</strong></p><p>Если коротко — всё чуть сложнее, чем звучит в новостях.</p> <a href="https://habr.com/ru/articles/1024246/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1024246#habracut">Читать разбор</a>]]></description>
+
+            <pubDate>Thu, 16 Apr 2026 13:00:38 GMT</pubDate>
+            <dc:creator><![CDATA[PetrVasilchenko]]></dc:creator>
+
+            <category><![CDATA[vpn]]></category>
+            <category><![CDATA[dpi]]></category>
+            <category><![CDATA[tls]]></category>
+            <category><![CDATA[https]]></category>
+            <category><![CDATA[sni]]></category>
+            <category><![CDATA[международный трафик]]></category>
+            <category><![CDATA[маршрутизация]]></category>
+            <category><![CDATA[интернет-цензура]]></category>
+            <category><![CDATA[интернет-трафик]]></category>
+            <category><![CDATA[cdn]]></category>
+        </item>
+
+
+        <item>
+            <title><![CDATA[Ремонт блока питания с Power Delivery. 470 граммов электроники]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/companies/selectel/articles/1023912/</guid>
+            <link>https://habr.com/ru/companies/selectel/articles/1023912/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1023912</link>
+            <description>
+                <![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/54b/27b/c38/54b27bc38654775aba0d5492ffc1c881.jpg" /><p>Не люблю писать о ремонте техники, так как обычно это рутина. Самые частые аппаратные проблемы — это старение, перегревы, перегрузки, намокание и тому подобное. Но тут коллега принес блок питания, который покупался для тестов устройств с Power Delivery, со словами: «Два раза зарядил телефон и блок питания перестал работать». AOHi GaN 140W, весом 470 граммов (!), с относительно небольшими габаритами. Мне кажется, что за такую стоимость он должен был прослужить немного дольше. Я его решил разобрать только для того, чтобы доказать, что там просто свинцовая пластина, а блок питания самый обычный. Спойлер: нет.</p> <a href="https://habr.com/ru/articles/1023912/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1023912#habracut">Читать далее</a>]]></description>
+
+            <pubDate>Mon, 20 Apr 2026 08:00:39 GMT</pubDate>
+            <dc:creator><![CDATA[the_bat (Selectel)]]></dc:creator>
+
+            <category><![CDATA[aohi]]></category>
+            <category><![CDATA[gan]]></category>
+            <category><![CDATA[ремонт]]></category>
+            <category><![CDATA[блок питания]]></category>
+            <category><![CDATA[selectel]]></category>
+        </item>
+
+
+        <item>
+            <title><![CDATA[[Перевод] Электроинструмент становится хуже, и это делается намеренно]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/companies/ruvds/articles/1024156/</guid>
+            <link>https://habr.com/ru/companies/ruvds/articles/1024156/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1024156</link>
+            <description>
+                <![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/413/30c/e9d/41330ce9dc281b2f2694c98b0c17a841.jpg" /><p>В 2005 году гонконгский конгломерат купил за <strong>$626 миллионов</strong> компанию Milwaukee и вложил в неё деньги. В 2017 году американский конгломерат купил за <strong>$900 миллионов </strong>Craftsman и построил фабрику, которая оказалась неспособна даже штамповать собственное название на инструменте. </p><p><em>Один и тот же учебник. Противоположные результаты.</em> Это история о том, что произошло со всеми марками инструментов, лежащих на полках магазинов.</p> <a href="https://habr.com/ru/articles/1024156/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1024156#habracut">Читать далее</a>]]></description>
+
+            <pubDate>Mon, 20 Apr 2026 13:01:46 GMT</pubDate>
+            <dc:creator><![CDATA[interpres (RUVDS.com)]]></dc:creator>
+
+            <category>электроинструмент</category>
+            <category>milwaukee</category>
+            <category>makita</category>
+            <category>ryobi</category>
+            <category>dewalt</category>
+            <category>bosch</category>
+            <category>ruvds_перевод</category>
+        </item>
+
+
+        <item>
+            <title><![CDATA[Юбилей легенды]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/companies/ruvds/articles/1016910/</guid>
+            <link>https://habr.com/ru/companies/ruvds/articles/1016910/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1016910</link>
+            <description>
+                <![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/092/005/dde/092005dde9fb09429f4fe2e9d0e57c6c.jpg" /><p>Сегодня, в Международный день радиолюбителя, я хотел бы вернуться к теме легендарного радиолюбительского трансивера «Радио-76». Тем более, в этом году исполняется ровно пятьдесят лет со дня публикации его конструкции. Трансивер разрабатывался в лаборатории журнала «Радио» с целью создать простую любительскую радиостанцию с хорошей повторяемостью. И это разработчикам трансивера Б. Степанову (UW3AX) и Г. Шульгину (UA3ACM) удалось. Есть, конечно, у «Радио-76» недостатки, но у многих начинающих радиолюбителей и у меня тоже именно он был первым трансивером в собственности, поэтому дальше — только с любовью и нежностью.</p> <a href="https://habr.com/ru/articles/1016910/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1016910#habracut">Читать с любовью</a>]]></description>
+
+            <pubDate>Sat, 18 Apr 2026 09:01:40 GMT</pubDate>
+            <dc:creator><![CDATA[dmitriyrudnev (RUVDS.com)]]></dc:creator>
+
+            <category><![CDATA[ham-radio]]></category>
+            <category><![CDATA[радио-76]]></category>
+            <category><![CDATA[системы связи]]></category>
+            <category><![CDATA[схемотехника]]></category>
+            <category><![CDATA[ruvds_статьи]]></category>
+        </item>
+
+
+        <item>
+            <title><![CDATA[Как одна буква в ассемблере стоит 3× производительности]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/articles/1024862/</guid>
+            <link>
+                https://habr.com/ru/articles/1024862/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1024862
+            </link>
+            <description>
+                <![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/c1d/c1e/cda/c1dc1ecda70fcf828db466f7b9373aff.png" /><p>Я хочу показать вам, как одна буква в ассемблере может стоить 3× производительности. Не в теории — на живых замерах. По дороге мы заглянем внутрь процессора: Register Alias Table, partial register merge, scheduler, latency vs throughput, и даже обнаружим, что делитель выдаёт остаток раньше частного.</p><p>Но начнём с основ. Приготовьтесь: кроличья нора окажется глубже, чем кажется.</p> <a href="https://habr.com/ru/articles/1024862/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1024862#habracut">Читать далее</a>]]></description>
+
+            <pubDate>Fri, 17 Apr 2026 19:16:12 GMT</pubDate>
+            <dc:creator><![CDATA[Erbium]]></dc:creator>
+
+            <category><![CDATA[x86]]></category>
+            <category><![CDATA[assembly]]></category>
+            <category><![CDATA[NASM]]></category>
+            <category><![CDATA[div]]></category>
+            <category><![CDATA[partial register merge]]></category>
+            <category><![CDATA[latency]]></category>
+            <category><![CDATA[throughput]]></category>
+            <category><![CDATA[микроархитектура]]></category>
+            <category><![CDATA[Skylake]]></category>
+            <category><![CDATA[оптимизация]]></category>
+        </item>
+
+
+        <item>
+            <title><![CDATA[Пробуем использовать локальные LLM для написания кода]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/articles/1024884/</guid>
+            <link>
+                https://habr.com/ru/articles/1024884/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1024884
+            </link>
+            <description>
+                <![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/52b/c06/f11/52bc06f11f0792a086ed66444f3b83e0.jpg" /><p>Рассмотрим альтернативу облачным моделям — локальный запуск LLM на своём компьютере.</p><p>Этот подход даёт полный контроль над данными, но требует понимания ресурсов, форматов моделей и особенностей настройки. В статье расскажу, как выбрать модель под ваше железо, запустить её с помощью LM Studio, подключить к агентам и что из этого вышло в эксперименте. И несколько рекомендаций для тех, кто задумывается о такой возможности.</p> <a href="https://habr.com/ru/articles/1024884/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1024884#habracut">Читать далее</a>]]></description>
+
+            <pubDate>Fri, 17 Apr 2026 22:28:47 GMT</pubDate>
+            <dc:creator><![CDATA[sergio5990]]></dc:creator>
+
+            <category><![CDATA[llm-модели]]></category>
+            <category><![CDATA[llm-агенты]]></category>
+            <category><![CDATA[ии-агенты]]></category>
+            <category><![CDATA[ии]]></category>
+        </item>
+
+
+        <item>
+            <title><![CDATA[DIY: Экранчик для «умного дома»]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/articles/1025130/</guid>
+            <link>
+                https://habr.com/ru/articles/1025130/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1025130
+            </link>
+            <description>
+                <![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/9e6/f6e/67e/9e6f6e67e0acc1e584eee86c0d0b14dc.jpg" /><p>Есть такая штука, как "дисплей покупателя" - это тот самый экран на кассе, где пишут сколько денег вы должны заплатить. <br>И есть такое народное развлечение - делать из этих экранов всякое разное - ну например, "часы или  метеостанцию" (с)</p><p>Фишка тут в том, что можно приобрести их б/у за копейки, и получить при этом винтажный газоразрядный экран, приятного зеленого или синего цвета. <br>Пусть алфавитно-цифровой - для часов этого более чем достаточно.  </p><p>Поскольку сервер времени я себе уже сделал - дай-ка, думаю, и эту штуку попробую освоить, будут часы с синхронизацией по NTP. <br>А еще можно приспособить их для полезного дела - показывать температуру воды в котле, например - чтобы не бегать смотреть на основные экраны "умного дома", и не хвататься за телефон.</p><p>Итак, под руку попался Wincor Nixdorf BA64-2: 2 строки по 20 символов, газоразрядный, аккуратный черный корпус. </p> <a href="https://habr.com/ru/articles/1025130/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1025130#habracut">Читать далее</a>]]></description>
+
+            <pubDate>Sun, 19 Apr 2026 00:53:35 GMT</pubDate>
+            <dc:creator><![CDATA[JBFW]]></dc:creator>
+
+            <category><![CDATA[diy]]></category>
+            <category><![CDATA[умный дом]]></category>
+            <category><![CDATA[ардуино]]></category>
+            <category><![CDATA[часы]]></category>
+            <category><![CDATA[метеостанция]]></category>
+            <category><![CDATA[очумелые ручки]]></category>
+        </item>
+
+
+        <item>
+            <title><![CDATA[Как ИИ-агенты стали новым оружием скамеров на Хабр Карьере]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/articles/1025624/</guid>
+            <link>
+                https://habr.com/ru/articles/1025624/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1025624
+            </link>
+            <description>
+                <![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/045/50c/5ce/04550c5ce1da71c738f9868be0f508e7.jpg" /><p>Скам на рынке труда существует давно. Фейковые вакансии, фишинговые письма, поддельные HR. Но раньше это требовало много ручной работы: написать каждому кандидату, подобрать убедительную легенду под его профиль, поддерживать диалог. Масштаб был ограничен.</p><p>С приходом ИИ-агентов это стало конвейером.</p><p>Теперь агент сам изучает профиль разработчика, генерирует персонализированную вакансию под его стек, ведёт диалог и имитирует живого человека. Одновременно для тысяч людей. Как спам-рассылки и фишинг в своё время из ручного труда превратились в автоматизированные атаки. То же самое теперь происходит со скамом на рекрутинговых платформах.</p><p>Я наткнулся на одну из таких схем. Рассказываю как было, что нашёл внутри и как защититься.</p> <a href="https://habr.com/ru/articles/1025624/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1025624#habracut">Читать далее</a>]]></description>
+
+            <pubDate>Mon, 20 Apr 2026 12:07:31 GMT</pubDate>
+            <dc:creator><![CDATA[prohronus]]></dc:creator>
+
+            <category><![CDATA[ии]]></category>
+            <category><![CDATA[ии-агенты]]></category>
+            <category><![CDATA[скам]]></category>
+            <category><![CDATA[поиск работы]]></category>
+            <category><![CDATA[поиск работы в it]]></category>
+        </item>
+
+
+        <item>
+            <title><![CDATA[Собираем стратокастер из деталей с Aliexpress]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/companies/ruvds/articles/1005022/</guid>
+            <link>https://habr.com/ru/companies/ruvds/articles/1005022/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1005022</link>
+            <description>
+                <![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/cc9/d14/ec3/cc9d14ec376addfee97abec2691ded88.jpg" /><p>Привет, Хабр! Знакомый энтузиаст приобрёл гору китайских комплектующих для электрогитары и попросил у меня помощи с её сборкой, так как детали имели некоторые особенности и не совсем подходили друг к другу.</p><p>Увлекательный процесс работы и получившийся музыкальный инструмент теперь можно рассмотреть, послушать и оценить.</p> <a href="https://habr.com/ru/articles/1005022/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1005022#habracut">Фото с уютным котиком и многое другое</a>]]></description>
+
+            <pubDate>Wed, 15 Apr 2026 09:01:37 GMT</pubDate>
+            <dc:creator><![CDATA[Lunathecat (RUVDS.com)]]></dc:creator>
+
+            <category><![CDATA[ruvds_статьи]]></category>
+            <category><![CDATA[электрогитара]]></category>
+            <category><![CDATA[электрогитары]]></category>
+            <category><![CDATA[стратокастер]]></category>
+            <category><![CDATA[работа с деревом]]></category>
+            <category><![CDATA[домашняя мастерская]]></category>
+            <category><![CDATA[своими руками]]></category>
+            <category><![CDATA[китайские поделки]]></category>
+            <category><![CDATA[музыкальные инструменты]]></category>
+            <category><![CDATA[гитаризм]]></category>
+        </item>
+
+
+        <item>
+            <title><![CDATA[Галактический ID: система идентификации для всех форм разумной жизни]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/companies/ruvds/articles/1023650/</guid>
+            <link>https://habr.com/ru/companies/ruvds/articles/1023650/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1023650</link>
+            <description>
+                <![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/e88/109/e7a/e88109e7a890f3be3a8a99d9981c375a.png" /><p>Когда я учился в универе, я жил в общаге, и я впервые столкнулся с системой нумерации комнат, где номер комнаты говорит об этаже, на котором она находится. Например, комната 607 сразу и однозначно говорит о том, что это шестой этаж, седьмая дверь с начала коридора. Число <code>607</code> само рассказало мне, куда идти.</p><p>А теперь представьте, что через десять лет нам нужно будет в одной системе учёта различать между собой: обычного человека, его клона, выращенного в лаборатории в Сингапуре, его цифровую модель личности, живущую в облаке, робота-помощника, наделённого правами личности, ИИ-личность без физического тела, робота-аватара, в которого эта личность время от времени заходит «погостить», а может быть, кого-то ещё — о ком мы пока даже не думали.</p><p>Давайте придумаем наглядный и понятный галактический ID, с которым сосуществование разных форм разумной жизни станет более комфортным и упорядоченным.</p> <a href="https://habr.com/ru/articles/1023650/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1023650#habracut">Читать далее</a>]]></description>
+
+            <pubDate>Thu, 16 Apr 2026 09:01:51 GMT</pubDate>
+            <dc:creator><![CDATA[inetstar (RUVDS.com)]]></dc:creator>
+
+            <category><![CDATA[id]]></category>
+            <category><![CDATA[паспорт]]></category>
+            <category><![CDATA[разумная жизнь]]></category>
+            <category><![CDATA[идентификация]]></category>
+        </item>
+
+
+        <item>
+            <title>
+                <![CDATA[Превращаем старую клавиатуру от ноутбука в полноценную USB-клавиатуру на RP2040 без QMK]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/companies/ruvds/articles/1019904/</guid>
+            <link>https://habr.com/ru/companies/ruvds/articles/1019904/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1019904</link>
+            <description>
+                <![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/252/4bd/70f/2524bd70fadf8e3b815991cc74168c84.jpeg" /><p>По созданию клавиатур на Хабре написано много статей, но, как правило, они подразумевают кастомизацию прошивки <a href="https://qmk.fm/">QMK</a> или использование уже готовой.</p><p>Использование готовой прошивки удобно тем, что большинство шишек за вас набили её разработчики. Такой подход годится, если вы хотите получить отлаженное решение в сжатые сроки.</p><p>Для обучения и понимания работы клавиатуры, периферийных устройств и протоколов взаимодействия лучше изобрести свой велосипед. Так я и поступил.</p> <a href="https://habr.com/ru/articles/1019904/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1019904#habracut">Читать далее</a>]]></description>
+
+            <pubDate>Fri, 17 Apr 2026 13:01:58 GMT</pubDate>
+            <dc:creator><![CDATA[artyomsoft (RUVDS.com)]]></dc:creator>
+
+            <category><![CDATA[usb]]></category>
+            <category><![CDATA[rp2040]]></category>
+            <category><![CDATA[pico]]></category>
+            <category><![CDATA[hid]]></category>
+            <category><![CDATA[keyboard]]></category>
+            <category><![CDATA[tinyusb]]></category>
+            <category><![CDATA[ghosting]]></category>
+            <category><![CDATA[diy]]></category>
+            <category><![CDATA[prototyping]]></category>
+            <category><![CDATA[ruvds_статьи]]></category>
+        </item>
+
+
+        <item>
+            <title><![CDATA[[Перевод] Как приглашение на вакансию мечты превращается в атаку]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/companies/ruvds/articles/1022898/</guid>
+            <link>https://habr.com/ru/companies/ruvds/articles/1022898/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1022898</link>
+            <description>
+                <![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/35e/66b/422/35e66b422708dd622790178274d890e3.jpg" /><p>Начиналось всё с уведомления, радостного для каждого разработчика:</p><p><em>«Вы попали в шорт-лист на вакансию разработчика ИИ».</em></p><p>Компания кажется потрясающей — <strong>DLMind</strong>, «лаборатория инноваций ИИ». Рекрутер выглядит вполне правдоподобным —&nbsp;<strong>Tim Morenc, CEDS</strong>, с качественным профилем на LinkedIn, профессиональными интонациями в переписке и историей взаимных связей.</p><p>Но за этим дружелюбным сообщением стоит <strong>BeaverTail</strong>&nbsp;— кампания, направленная на похищение вашего кода и учётных данных.</p> <a href="https://habr.com/ru/articles/1022898/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1022898#habracut">Читать далее</a>]]></description>
+
+            <pubDate>Wed, 15 Apr 2026 13:01:28 GMT</pubDate>
+            <dc:creator><![CDATA[interpres (RUVDS.com)]]></dc:creator>
+
+            <category>кража паролей</category>
+            <category>эксплойты</category>
+            <category>malware</category>
+            <category>безопасность</category>
+            <category>кибербезопасность</category>
+            <category>ruvds_переводы</category>
+        </item>
+
+
+        <item>
+            <title><![CDATA[[Перевод] Я установил все расширения Firefox]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/companies/ruvds/articles/1024470/</guid>
+            <link>https://habr.com/ru/companies/ruvds/articles/1024470/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1024470</link>
+            <description>
+                <![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/77d/d6c/d8d/77dd6cd8d9389e8cbe2b3353d6e689ed.png" /><p>Эпичная история установки всех* расширений для браузера Firefox. Это был непростой процесс, который-таки увенчался успехом. Не обошлось в нём и без некоторых любопытных поворотов, неразрешённых вопросов и помощи друга. </p><p>Как выяснилось, всего у Firefox <a href="https://addons.mozilla.org/en-US/firefox/search/?type=extension">84 тысячи расширений</a>. Вроде бы <a href="https://unnamed.website/posts/installing-every-arch-package/">не особо много</a>, и по факту даже меньше 50 ГБ. Так что приступим! </p><p><em>*Всех, кроме 8, которые мы не соскрейпили (или которые удалили в промежутке между моментом проверки их списка на сайте и запуском скрипта), и 42, которые отсутствовали в extensions.json.</em><a href="#id01"><em><sup>1</sup></em></a><em>&nbsp;Так что чисто технически мы установили 99,94% всех расширений.</em></p> <a href="https://habr.com/ru/articles/1024470/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1024470#habracut">Читать далее</a>]]></description>
+
+            <pubDate>Sun, 19 Apr 2026 09:01:08 GMT</pubDate>
+            <dc:creator><![CDATA[Bright_Translate (RUVDS.com)]]></dc:creator>
+
+            <category>ruvds_перевод</category>
+            <category>программирование</category>
+            <category>браузеры</category>
+            <category>firefox</category>
+            <category>расширения firefox</category>
+            <category>javascript</category>
+        </item>
+
+
+        <item>
+            <title><![CDATA[Лабораторный откачной пост своими руками. Часть 1. Каркас, нагревательная печь]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/companies/ruvds/articles/1020452/</guid>
+            <link>https://habr.com/ru/companies/ruvds/articles/1020452/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1020452</link>
+            <description>
+                <![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/4d9/898/7a6/4d98987a67976c4cd5395856b52cf0fd.jpg" /><p>Речь об установке для вакуумной обработки самодельных ламп в любительской лаборатории-мастерской. Выделение впитанных в материалы электровакуумных приборов (стекло, металлы, слюда) газов при нагреве и понижении давления в колбе прибора [1], заставляет принимать меры для их&nbsp;<em>обезгаживания</em>,&nbsp;среди прочих мероприятий, это и внешний нагрев электровакуумного прибора (ЭВП) во время откачки. Здесь — отчёт о сборке каркаса&nbsp;<em>откачного поста</em>&nbsp;и такой нагревательной технологической электропечи — лёгкой, мобильной, точной, удобной, экономной. Из простых доступных материалов и компонентов, своими руками. Печи, пригодной и для снятия внутренних напряжений в стекле (<em>отжига</em>) [2] после изготовления деталей на горелке [3], печи, годящейся для горячей формовки стекла (<em>моллирования</em>), изготовления стеклянных витражей в технике&nbsp;<em>фьюзинг</em>&nbsp;[4], сушки, нагрева, прокаливания и тому подобных&nbsp;процессов с температурой до ~800&nbsp;<sup>о</sup>С. Печь управляется программируемым ПИД&nbsp;термоконтроллером,&nbsp;ремонтопригодна, имеет рабочую камеру объёмом 24 л, при мощности нагревателей 2.3 кВт, может включаться в однофазную или трёхфазную сеть.</p> <a href="https://habr.com/ru/articles/1020452/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1020452#habracut">Читать далее</a>]]></description>
+
+            <pubDate>Fri, 17 Apr 2026 09:01:36 GMT</pubDate>
+            <dc:creator><![CDATA[BabayMazay (RUVDS.com)]]></dc:creator>
+
+            <category><![CDATA[самодельные радиолампы]]></category>
+            <category><![CDATA[печи]]></category>
+            <category><![CDATA[вакуум]]></category>
+            <category><![CDATA[хобби и развлечения гиков]]></category>
+            <category><![CDATA[ruvds_статьи]]></category>
+        </item>
+
+
+        <item>
+            <title><![CDATA[Что там с Ил-96]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/articles/1024250/</guid>
+            <link>
+                https://habr.com/ru/articles/1024250/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1024250
+            </link>
+            <description>
+                <![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/c27/dbe/be3/c27dbebe3ded6ca455109227f23fd779.jpg" /><p>Если в какой-то момент вы видели по телевизору, как президент России спускается по трапу с большого белого самолёта с синей полосой и четырьмя двигателями под крылом — это он. Ил-96-300ПУ, «борт номер один». Последний дальнемагистральник, разработанный ещё в СССР и всё ещё производящийся в России. Штучно, в Воронеже, на <a href="https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D1%80%D0%BE%D0%BD%D0%B5%D0%B6%D1%81%D0%BA%D0%BE%D0%B5_%D0%B0%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%B5%D1%80%D0%BD%D0%BE%D0%B5_%D1%81%D0%B0%D0%BC%D0%BE%D0%BB%D1%91%D1%82%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5_%D0%BE%D0%B1%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE" rel="noopener noreferrer nofollow">ВАСО</a>.</p><p>Штучно, потому что за 37 лет с первого полёта в 1988-м всего построено чуть больше 30 машин всех версий. Для сравнения: Boeing 777, его прямой зарубежный конкурент, выпускается с 1994 года — и к нынешнему моменту собрано больше 1700 штук. Разница в пятьдесят раз. </p><p>Это всё, что нужно знать про коммерческую судьбу Ил-96.</p><p>Но в 2023 году в небо поднялась новая модификация — Ил-96-400М. И в комплексной программе развития авиатранспортной отрасли до 2035 года эта машина стоит в планах. </p><p>Давайте разбираться, что <strong><em>с этим всем сейчас и куда всё идёт</em></strong>.</p> <a href="https://habr.com/ru/articles/1024250/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1024250#habracut">ding!</a>]]></description>
+
+            <pubDate>Thu, 16 Apr 2026 13:00:56 GMT</pubDate>
+            <dc:creator><![CDATA[pilot_artem]]></dc:creator>
+
+            <category><![CDATA[ИЛ-96]]></category>
+            <category><![CDATA[авиация в РФ]]></category>
+            <category><![CDATA[авиапром]]></category>
+        </item>
+
+
+        <item>
+            <title><![CDATA[[Перевод] Почему комната управления реактором покрашена в цвет морской пены]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/articles/1024076/</guid>
+            <link>
+                https://habr.com/ru/articles/1024076/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1024076
+            </link>
+            <description>
+                <![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/053/141/cea/053141ceaf9c97154bd21457bd04c098.jpg" /><p>Когда я жила в Нэшвилле, мы с моими подругами часто выезжали на «экскурсии» по штату. Однажды мы поехали искать белоголовых орланов в западном Теннесси; в туалете национального парка нам встретилась женщина с кучерявыми волосами, которая сообщила, что вчера видела 113 орланов. Мы же за всю поездку увидели... двух.</p><p>Летом 2017 года мы поехали на ещё одну экскурсию на завод Манхэттенского проекта в Ок-Ридже. В 1942 году Ок-Ридж был выбран в качестве места создания завода по обогащению плутония и урана в рамках Манхэттенского проекта — совершенно секретного мероприятия по разработке первой атомной бомбы. Маленькое сельское поселение, расположенное в долине западного Теннесси, благодаря срочному проекту по созданию атомной бомбы превратилось в тайный посёлок под названием «Site X», увеличив своё население с трёх тысяч человек в 1942 году до 75 тысяч к 1945 году. Наряду с ростом населения были построены огромные здания комплекса.</p> <a href="https://habr.com/ru/articles/1024076/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1024076#habracut">Читать далее</a>]]></description>
+
+            <pubDate>Thu, 16 Apr 2026 08:37:38 GMT</pubDate>
+            <dc:creator><![CDATA[PatientZero]]></dc:creator>
+
+            <category>промышленный дизайн</category>
+            <category>теория цвета</category>
+            <category>манхэттенский проект</category>
+        </item>
+
+
+        <item>
+            <title>
+                <![CDATA[Почему сложные задачи висели неделями: я думал, проблема в дисциплине, а оказалось — в избегании когнитивной нагрузки]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/articles/1023760/</guid>
+            <link>
+                https://habr.com/ru/articles/1023760/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1023760
+            </link>
+            <description>
+                <![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/2d5/5db/719/2d55db71971da6b9c298d2eb4a038dec.png" /><p>Иногда у меня неделями лежала одна и та же задача: открыть новый документ, собрать структуру, написать сложное письмо, придумать логику материала. При этом внешне я был занят весь день, но к вечеру видел знакомую картину: мелочи закрыты, созвоны прошли, а главный кусок работы снова остался нетронутым.</p> <a href="https://habr.com/ru/articles/1023760/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1023760#habracut">Читать далее</a>]]></description>
+
+            <pubDate>Thu, 16 Apr 2026 05:12:27 GMT</pubDate>
+            <dc:creator><![CDATA[AlexeyMarketing]]></dc:creator>
+
+            <category><![CDATA[прокрастинация]]></category>
+            <category><![CDATA[дедлайн]]></category>
+            <category><![CDATA[мозг]]></category>
+            <category><![CDATA[организация времени]]></category>
+            <category><![CDATA[тайм-менеджмент]]></category>
+            <category><![CDATA[задачи]]></category>
+        </item>
+
+
+        <item>
+            <title><![CDATA[«иНЖАЛИД ДЕЖИЦЕ» или Как я подключал «прыгающую лягушку» к Linux]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/companies/timeweb/articles/1003986/</guid>
+            <link>https://habr.com/ru/companies/timeweb/articles/1003986/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1003986</link>
+            <description>
+                <![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/a32/b6f/10e/a32b6f10ec871104bac69bb7001c88d6.jpg" /><p>В данном очерке мы увидим подключение «Videoton 52100-C» к современному железу под управлением современных ОС при помощи интерфейса «токовая петля». Посмотрим-поглядим?</p> <a href="https://habr.com/ru/articles/1003986/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1003986#habracut">иНЖАЛИД ДЕЖИЦЕ</a>]]></description>
+
+            <pubDate>Wed, 15 Apr 2026 09:05:40 GMT</pubDate>
+            <dc:creator><![CDATA[MechNIX (Timeweb Cloud)]]></dc:creator>
+
+            <category><![CDATA[ретроспектива]]></category>
+            <category><![CDATA[ретрокомпьютинг]]></category>
+            <category><![CDATA[терминал]]></category>
+            <category><![CDATA[терминалы]]></category>
+            <category><![CDATA[терминал linux]]></category>
+            <category><![CDATA[токовая петля]]></category>
+            <category><![CDATA[rs-232c]]></category>
+            <category><![CDATA[timeweb_статьи]]></category>
+        </item>
+
+
+        <item>
+            <title><![CDATA[LLM-агент для поиска свободных доменов: автоматизируем подбор]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/companies/selectel/articles/1024056/</guid>
+            <link>https://habr.com/ru/companies/selectel/articles/1024056/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1024056</link>
+            <description>
+                <![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/d9a/538/3e6/d9a5383e6514e00353aa6d36c32c258e.jpeg" /><p>Каждый день регистрируются сотни тысяч новых доменов, поэтому найти среди оставшихся что-то короткое, понятное и незанятое становится сложнее. Хороший домен — это узнаваемость и доверие пользователя.&nbsp;</p><p>Привет, Хабр! Меня зовут Сергей. Я работаю инженером <a href="https://selectel.ru/services/cloud/servers/?utm_source=habr.com&amp;utm_medium=referral&amp;utm_campaign=cloud_article_llmdomain_160426_content">в Selectel</a>, а в свободное время пишу пет-проекты для души. Недавно я прикинул: а что, если прямо сейчас мне понадобится запустить свой бренд или продукт? Первое, во что упираешься в таких раздумьях — это выбор домена. В этой статье я покажу небольшой проект, благодаря которому можно подбирать доменные имена не вручную, а автоматически с применением ИИ-агентов. Удобно или нет, решайте сами, подробности под катом.</p> <a href="https://habr.com/ru/articles/1024056/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1024056#habracut">Читать далее</a>]]></description>
+
+            <pubDate>Thu, 16 Apr 2026 08:28:15 GMT</pubDate>
+            <dc:creator><![CDATA[Orange_XD (Selectel)]]></dc:creator>
+
+            <category><![CDATA[llm-агент]]></category>
+            <category><![CDATA[selectel]]></category>
+            <category><![CDATA[домены]]></category>
+            <category><![CDATA[ллм]]></category>
+            <category><![CDATA[пет-проект]]></category>
+            <category><![CDATA[искусственный интеллект]]></category>
+            <category><![CDATA[ии]]></category>
+            <category><![CDATA[ии и машинное обучение]]></category>
+        </item>
+
+
+        <item>
+            <title><![CDATA[П-171Д. Оживляем телефонный аппарат спецсвязи СССР]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/companies/timeweb/articles/1017064/</guid>
+            <link>https://habr.com/ru/companies/timeweb/articles/1017064/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1017064</link>
+            <description>
+                <![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/feb/990/37f/feb99037f047c4cf98281be53b50f757.jpg" /><p>Приветствую всех!</p><p>С первого взгляда может показаться, что это самый обычный дисковый телефон, какие некогда стояли практически в каждом доме или офисе. Несмотря на это, внутри он устроен совершенно иначе.</p><p>Итак, в сегодняшней статье посмотрим на один из самых крутых дисковых телефонов советской эпохи. Заодно разберёмся, что у него внутри, чем он так примечателен и как подключить его к обычной телефонной сети. Как водится, будет много интересного.</p> <a href="https://habr.com/ru/articles/1017064/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1017064#habracut">Press F1 to continue</a>]]></description>
+
+            <pubDate>Fri, 17 Apr 2026 08:05:19 GMT</pubDate>
+            <dc:creator><![CDATA[MaFrance351 (Timeweb Cloud)]]></dc:creator>
+
+            <category><![CDATA[timeweb_статьи]]></category>
+            <category><![CDATA[телефон]]></category>
+            <category><![CDATA[атс]]></category>
+            <category><![CDATA[дисковый телефон]]></category>
+            <category><![CDATA[номеронабиратель]]></category>
+            <category><![CDATA[экранирование]]></category>
+            <category><![CDATA[зас]]></category>
+            <category><![CDATA[пэмин]]></category>
+            <category><![CDATA[коммутационная панель]]></category>
+            <category><![CDATA[rj12]]></category>
+        </item>
+
+
+        <item>
+            <title>
+                <![CDATA[Код Apollo 11 выглядит лучше современного софта. Похоже, мы где-то свернули не туда]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/companies/selectel/articles/1023644/</guid>
+            <link>https://habr.com/ru/companies/selectel/articles/1023644/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1023644</link>
+            <description>
+                <![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/cf1/26c/89e/cf126c89e0f80dbe99ae001503cf5100.png" /><p>Помните, в 2016 сотрудник NASA Крис Гарри опубликовал код миссии Apollo 11 <a href="https://github.com/chrislgarry/Apollo-11">на GitHub</a>? Его можно изучать, загружать и изменять. Ну и, конечно, использовать <s>для полета на Луну</s> в собственных целях. Речь идет об исходниках кода командного модуля Comanche 055 и лунного модуля Luminary 099. Это «живой» код из 1969 года с комментариями инженеров.</p><p>Так вот. Если открыть этот проект сегодня, становится ясно, почему он до сих пор считается эталоном. Это живой пример настоящей инженерной школы, где каждое решение продиктовано жесткой практической необходимостью. Сегодня философия программирования изменилась, поэтому особенно интересно взглянуть на то, как изменился подход к написанию кода за 50+ лет.</p> <a href="https://habr.com/ru/articles/1023644/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1023644#habracut">Читать далее</a>]]></description>
+
+            <pubDate>Sun, 19 Apr 2026 08:00:55 GMT</pubDate>
+            <dc:creator><![CDATA[TrexSelectel (Selectel)]]></dc:creator>
+
+            <category><![CDATA[selectel]]></category>
+            <category><![CDATA[apollo-11]]></category>
+            <category><![CDATA[github]]></category>
+            <category><![CDATA[open source]]></category>
+            <category><![CDATA[код]]></category>
+            <category><![CDATA[история]]></category>
+            <category><![CDATA[космонавтика]]></category>
+        </item>
+
+
+        <item>
+            <title><![CDATA[Почему JS/TS — не функциональный язык (и почему это важно понимать)]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/articles/1025100/</guid>
+            <link>
+                https://habr.com/ru/articles/1025100/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1025100
+            </link>
+            <description>
+                <![CDATA[<p>Мотивацией для написания этого поста стали два года собеседований JS/TS-инженеров. Я интересуюсь языками и функциональным программированием, поэтому всегда «разбавлял» технические вопросы разговором о парадигмах. И заметил любопытную асимметрию.</p><p>Об ООП кандидаты рассуждали уверенно — но в основном на концептуальном уровне, не вдаваясь в то, как именно ООП реализовано в JavaScript. С FP картина была другой: уверенности меньше, зато критика — конкретная и повторяющаяся: <em>«иммутабельность дорогая по памяти»</em>, <em>«рекурсия небезопасна из-за стека»</em>. Что характерно — эти аргументы почти всегда были сформулированы через опыт работы с JS, а не с Haskell, Clojure или Scala.</p><p>Это важная деталь. Любая парадигма существует на двух уровнях: концептуальном (идеальная модель) и имплементационном (как конкретный язык эту модель выражает). Судить о FP по JS — примерно то же самое, что судить об ООП по bash-скриптам с глобальными переменными.</p><p>Параллельно я регулярно слышал, что JS — функциональный язык. Аргументы варьировались от «там есть <code>.map()</code>» до рассуждений о чистых функциях и каррировании. Именно это и стало поводом для поста: я хочу объяснить, что я считаю функциональным языком — и почему JS таковым не является. Не перечислить отсутствующие фичи, а показать, <em>почему</em> их нет и что это значит в реальном рантайме.</p> <a href="https://habr.com/ru/articles/1025100/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1025100#habracut">Читать далее</a>]]></description>
+
+            <pubDate>Sat, 18 Apr 2026 19:15:33 GMT</pubDate>
+            <dc:creator><![CDATA[divideme]]></dc:creator>
+
+            <category><![CDATA[fp]]></category>
+            <category><![CDATA[scala]]></category>
+            <category><![CDATA[js]]></category>
+            <category><![CDATA[ts]]></category>
+            <category><![CDATA[functional programming]]></category>
+        </item>
+
+
+        <item>
+            <title><![CDATA[Почему не взлетели дирижабли? Часть 18: «Осоавиахим репортинг!»]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/companies/ruvds/articles/1024724/</guid>
+            <link>https://habr.com/ru/companies/ruvds/articles/1024724/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1024724</link>
+            <description>
+                <![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/562/65d/a4f/56265da4f53f96b44debd675db19b811.jpg" /><p>Несмотря на огромные трудности, советская программа дирижаблестроения продолжалась и развивалась. За небольшими мягкими воздушными кораблями последовал первый полноценный дирижабль полужёсткой конструкции, получивший название СССР В-6 «Осоавиахим». Впервые он поднялся в воздух 5 ноября 1934 года, накануне празднования очередной годовщины Октябрьской революции. Аппарат во многом повторял прежние творения Умберто Нобиле — «Италию» и «Норвегию», но имел немало усовершенствований и был спроектирован почти с нуля советскими конструкторами под его руководством и тщательным присмотром. После испытаний и госприёмки «Осоавиахим» был признан первым полноценным советским дирижаблем, пригодным не только к обучению экипажей и наглядной агитации, но и к практическому использованию с долгими перелётами. Предполагалось, что за ним последуют другие воздушные корабли того же проекта, которые встанут на линии пассажирского сообщения, станут снабжать труднодоступные населённые пункты и вести исследования советской Арктики. </p> <a href="https://habr.com/ru/articles/1024724/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1024724#habracut">Читать далее</a>]]></description>
+
+            <pubDate>Sat, 18 Apr 2026 13:01:28 GMT</pubDate>
+            <dc:creator><![CDATA[Erwinmal (RUVDS.com)]]></dc:creator>
+
+            <category><![CDATA[ruvds_статьи_выходного_дня]]></category>
+            <category><![CDATA[дирижабли]]></category>
+            <category><![CDATA[дирижаблестрой]]></category>
+            <category><![CDATA[СССР]]></category>
+            <category><![CDATA[1930-е]]></category>
+        </item>
+
+
+        <item>
+            <title><![CDATA[«Управляя Солнцем»: умопомрачительная физика и смелые задачи звёздных машин]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/companies/ruvds/articles/1021582/</guid>
+            <link>https://habr.com/ru/companies/ruvds/articles/1021582/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1021582</link>
+            <description>
+                <![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/d53/44f/b3e/d5344fb3e2721af1e1a5e07a599a2c09.png" /><p>Представьте себе, что Солнце стало кораблём. Нет, не как метафора для света или тепла, а буквально — судном, буксиром, способным тянуть за собой всю Солнечную систему по галактике. Это не сюжет научно-фантастического комикса; это строгая, математически обоснованная концепция на стыке астрофизики, инженерии и поиска внеземного разума (SETI). Учёные называют её <a href="https://ru.wikipedia.org/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D0%B0%D1%8F_%D0%BC%D0%B0%D1%88%D0%B8%D0%BD%D0%B0">звёздной машиной</a>.</p><p>Когда речь заходит о развитых инопланетных цивилизациях, мы часто используем шкалу Кардашёва. Цивилизация типа I использует энергию всей планеты (наша цивилизация пока поскромнее — в настоящее время мы не дотягиваем до этого уровня и находимся примерно на отметке 0,7). Цивилизация типа II, однако, действует в удивительных для нас масштабах: она использует всю энергию звезды. Для звезды, подобной нашему Солнцу, это примерно 4 × 10²⁶ ватт — огромное число, 4 и двадцать шесть нулей. Это в десять миллиардов раз превышает общее энергопотребление современного человечества [9]. Имея такой энергетический бюджет, можно не просто строить города, а перестраивать целые солнечные системы.</p><p>А какой самый экстремальный проект перестройки можно себе представить? Конечно — перемещение самой звезды.</p> <a href="https://habr.com/ru/articles/1021582/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1021582#habracut">Читать далее</a>]]></description>
+
+            <pubDate>Sun, 19 Apr 2026 13:01:08 GMT</pubDate>
+            <dc:creator><![CDATA[valisak (RUVDS.com)]]></dc:creator>
+
+            <category><![CDATA[звёздная машина]]></category>
+            <category><![CDATA[шкала Кардашёва]]></category>
+            <category><![CDATA[сфера дайсона]]></category>
+            <category><![CDATA[ruvds_статьи_выходного_дня]]></category>
+        </item>
+
+
+        <item>
+            <title><![CDATA[Термоэмиссионные генераторы электричества]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/companies/ruvds/articles/1022572/</guid>
+            <link>https://habr.com/ru/companies/ruvds/articles/1022572/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1022572</link>
+            <description>
+                <![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/267/da5/8f2/267da58f24ef8fb0547f06a4ba2cfa8f.jpg" /><p><em>Картинка: </em><a href="https://commons.wikimedia.org/w/index.php?curid=4543448"><em>Deglr6328</em></a></p><p>Прошёл и остался позади период бурного расцвета электронных ламп, ознаменовавший первые шаги человечества по входу в мир электрических сигналов и управлению ими.</p><p>Несмотря на то что для многих применений он остался в прошлом, даже нынешний день предоставляет им определённое пространство для применения, где одним из таковых является прямое преобразование тепла в электрический ток с высокой эффективностью…</p> <a href="https://habr.com/ru/articles/1022572/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1022572#habracut">Читать далее</a>]]></description>
+
+            <pubDate>Wed, 15 Apr 2026 07:01:53 GMT</pubDate>
+            <dc:creator><![CDATA[DAN_SEA (RUVDS.com)]]></dc:creator>
+
+            <category><![CDATA[термоэмиссионный генератор]]></category>
+            <category><![CDATA[электронные лампы]]></category>
+            <category><![CDATA[ruvds_статьи]]></category>
+        </item>
+
+
+        <item>
+            <title><![CDATA[Неочевидные нюансы миграции с Docker на Podman]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/companies/selectel/articles/1023618/</guid>
+            <link>https://habr.com/ru/companies/selectel/articles/1023618/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1023618</link>
+            <description>
+                <![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/bb9/79a/83e/bb979a83edfe783049f0dcda61e79604.jpeg" /><p>Миграция на Podman — вопрос достаточно интересный. И ответ на него достаточно простой — берете и мигрируете, там делов-то!</p><p>Но на самом деле это только верхушка айcберга. Сначала кажется, что все просто. А потом оказывается, что нужно решить много спорных моментов и учесть кучу мелочей. Сегодня я расскажу, на что стоит обратить внимание и стоит ли игра свеч. Поехали, порассуждаем про миграцию из Docker в Podman.</p> <a href="https://habr.com/ru/articles/1023618/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1023618#habracut">Читать далее</a>]]></description>
+
+            <pubDate>Wed, 15 Apr 2026 08:00:13 GMT</pubDate>
+            <dc:creator><![CDATA[TrexSelectel (Selectel)]]></dc:creator>
+
+            <category><![CDATA[selectel]]></category>
+            <category><![CDATA[linux]]></category>
+            <category><![CDATA[docker]]></category>
+            <category><![CDATA[podman]]></category>
+        </item>
+
+
+        <item>
+            <title><![CDATA[Как мы продавали компьютеры в 90-х. Шоу в нужную сторону]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/articles/1024654/</guid>
+            <link>
+                https://habr.com/ru/articles/1024654/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1024654
+            </link>
+            <description>
+                <![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/2e5/5c0/c9b/2e55c0c9b8a5c859864eb74c646ede8d.jpeg" /><p>Краткая предыстория. Когда мой бизнес стал вставать на ноги, мои приятели решили конкурировать, я нашёл идеальное решение.</p><p>К приходу Антона мы уже установили в компьютер плату Gravis Ultrasound Max и подключили миди-клавиатуру Roland А-33. Антон в редакторе прописывал отдельные партии разных инструментов – бас-гитары, скрипок, ударных, я помогал разобраться в интерфейсе и настройках программ.&nbsp; </p><p>Это было чистое волшебство – Антон сидел один за клавишами и играл партию соло, на экране – нотный стан и на нём появляются ноты! Можно было уже на прописанном треке поменять инструмент, дописать или отредактировать ноты, их длительность, можно было транспонировать – это было запредельное удовольствие!</p> <a href="https://habr.com/ru/articles/1024654/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1024654#habracut">Читать далее</a>]]></description>
+
+            <pubDate>Sat, 18 Apr 2026 02:45:43 GMT</pubDate>
+            <dc:creator><![CDATA[HappyTalkie]]></dc:creator>
+
+            <category><![CDATA[бизнес]]></category>
+            <category><![CDATA[90-е]]></category>
+            <category><![CDATA[бизнес 90-х]]></category>
+            <category><![CDATA[мультимедиа]]></category>
+            <category><![CDATA[шоу]]></category>
+            <category><![CDATA[gravis ultrasound]]></category>
+            <category><![CDATA[roland a-33]]></category>
+            <category><![CDATA[midi]]></category>
+            <category><![CDATA[музыка]]></category>
+            <category><![CDATA[музыкальные инструменты]]></category>
+        </item>
+
+
+        <item>
+            <title>
+                <![CDATA[Инфраструктура Шрёдингера: как вывести ИТ-ресурсы из суперпозиции и знать всё об активах наверняка]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/companies/simpleone/articles/1025720/</guid>
+            <link>https://habr.com/ru/companies/simpleone/articles/1025720/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1025720</link>
+            <description>
+                <![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/e17/2d2/31c/e172d231c02ea0e93d2071e6290f7985.png" /><p>Случалось ли вам покупать новые лицензии или технику просто потому, что найти старые оказалось сложнее и дольше? Если да, добро пожаловать в клуб.</p><p>В знаменитом мысленном эксперименте Эрвина Шрёдингера кот в стальном сейфе/камере (там ещё счётчик Гейгера с радиоактивным веществом, молоток и флакон с ядом) находится в суперпозиции — жив и мёртв одновременно, пока мы не откроем крышку и не произведём наблюдение. В этот момент волновая функция коллапсирует, и реальность обретает одно конкретное состояние.</p><p>В корпоративном ИТ всё работает точно так же. Пока вы не заглянете в серверную, не проведете инвентаризацию и не сверитесь с бухгалтерией, ИТ-инфраструктура находится в суперпозиции: ноут уволившегося разработчика одновременно сдан на склад и потерян; дорогая лицензия всё еще действует и уже просрочена; сервер выполняет критически важную бизнес-задачу и вхолостую жжёт электричество. Драгоценная табличка в Excel с гордым названием <code>Оборудование_финал_v4_Копия.xlsx</code> не связана с реальностью — она всего лишь описывает вероятности. И управлять многомиллионным бюджетом на основе таких вероятностей — путь к финансовой катастрофе, седым волосам по всему телу и хаосу.</p> <a href="https://habr.com/ru/articles/1025720/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1025720#habracut">Проверить кота</a>]]></description>
+
+            <pubDate>Tue, 21 Apr 2026 06:30:01 GMT</pubDate>
+            <dc:creator><![CDATA[vada (SimpleOne)]]></dc:creator>
+
+            <category><![CDATA[сервисы]]></category>
+            <category><![CDATA[стандарты]]></category>
+            <category><![CDATA[itam]]></category>
+            <category><![CDATA[финансы в it]]></category>
+            <category><![CDATA[управление активами]]></category>
+            <category><![CDATA[it-инфраструктура]]></category>
+            <category><![CDATA[инвентаризация]]></category>
+            <category><![CDATA[учет оборудования]]></category>
+            <category><![CDATA[ит-активы]]></category>
+        </item>
+
+
+        <item>
+            <title>
+                <![CDATA[Hail to the Rainbow. Разработка игры длиною в вечность. Освещение, лайтмаппинг и приемы оптимизации]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/articles/1022528/</guid>
+            <link>
+                https://habr.com/ru/articles/1022528/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1022528
+            </link>
+            <description>
+                <![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/2df/8ff/79a/2df8ff79a40c21c2bc2f3fa261da01bd.jpg" /><p>Всех приветствую! В прошлом году я начинал цикл статей на тему разработки моей инди – игры Hail to the Rainbow.&nbsp;В данной части речь пойдет о работе с освещением, эффектах и методах оптимизации.</p> <a href="https://habr.com/ru/articles/1022528/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1022528#habracut">Читать далее</a>]]></description>
+
+            <pubDate>Fri, 17 Apr 2026 13:41:29 GMT</pubDate>
+            <dc:creator><![CDATA[NoskovSS]]></dc:creator>
+
+            <category><![CDATA[unity]]></category>
+            <category><![CDATA[indie]]></category>
+            <category><![CDATA[indiedev]]></category>
+            <category><![CDATA[indiegame]]></category>
+            <category><![CDATA[hailtotherainbow]]></category>
+        </item>
+
+
+        <item>
+            <title>
+                <![CDATA[Умный подоконник: как ESP32 спас мой домашний огород (и что я узнал про «невидимые» пины)]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/articles/1025358/</guid>
+            <link>
+                https://habr.com/ru/articles/1025358/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1025358
+            </link>
+            <description>
+                <![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/19b/848/7b5/19b8487b5412c63c5e4127b7368608bd.jpeg" /><p><em>История о том, как микроконтроллер за 500 рублей помог вырастить клубнику ранней весной, и почему важно знать «анатомию» чипа</em></p><p>Живу в обычной квартире. Места мало, света ещё меньше. Но хочется своего — без пестицидов, свеженького. Решил организовать&nbsp;<strong>домашнюю ферму на подоконнике</strong>: клубника, базилик, салат, щавель, лук.</p><p>Если более глобально: в Мире наблюдается перенасыщение людьми, еды на всех не хватит, Дальний Восток от Москвы далеко, а ездить за 80 км от МКАД очень часто ну точно неохота. Если летом можно использовать балкон, где много натурального солнца, то зимой и в переходные периоды (весна и осень) есть совсем маленький клочок на территории квартиры, где то ли горизонтальную ферму делать, то ли вообще вертикальную. Или гибрид вертикальной и горизонтальной.</p><p>Есть еще нюанс — 4-5 прямоугольных горшков, как показал мой опыт, Вам явно не хватит. Но этого уже будет достаточно, чтобы было некоторое количество урожая к Вашему столу. Не лучше ли закупать микрозелень и клубнику в магазина, где ее «везут с Краснодара»? Ну есть проблема — в этом капитализме нас повсюду обманывают: искусственное дозревание, пестициды и дешевые эффективные добавки, не лучшее качество воздуха при выращивании в теплице и так далее.</p><p>Поэтому если бумеры и поколение X ненавидели городское фермерство за то, что в загазованных условиях ты пытаешься что-то ростить, то сегодня все сложно. В небоскребе на 63 этаже вообще может быть воздух чище, чем на загородном участке в 3 метрах от забора. Все ситуативно, но на помощь приходят инструменты и средства Умного Дома и Интернета вещей. Именно сегодня наиболее актуально автоматизировать и роботизировать домашние фермы.</p> <a href="https://habr.com/ru/articles/1025358/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1025358#habracut">Читать далее</a>]]></description>
+
+            <pubDate>Sun, 19 Apr 2026 19:30:34 GMT</pubDate>
+            <dc:creator><![CDATA[technofeya]]></dc:creator>
+
+            <category><![CDATA[умный дом]]></category>
+            <category><![CDATA[умный подоконник]]></category>
+            <category><![CDATA[агроферма]]></category>
+            <category><![CDATA[клубника и земляника]]></category>
+            <category><![CDATA[выращивание]]></category>
+            <category><![CDATA[выращивание растений]]></category>
+            <category><![CDATA[автополив]]></category>
+            <category><![CDATA[умная ферма]]></category>
+            <category><![CDATA[искусственный интеллект]]></category>
+            <category><![CDATA[датасеты]]></category>
+        </item>
+
+
+        <item>
+            <title>
+                <![CDATA[«Фабрика монстров» Джорджа Лукаса: как в «Звездных войнах» создавали инопланетян без компьютерной графики]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/companies/timeweb/articles/1025206/</guid>
+            <link>https://habr.com/ru/companies/timeweb/articles/1025206/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1025206</link>
+            <description>
+                <![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/5f5/448/177/5f544817778c5a068ab41d4dc0a627a0.png" /><p>Визуальные эффекты в кино до компьютерной графики — это чертовски сложно, долго и дорого. Даже если речь идет о, казалось бы, простых вещах, например инопланетных существах. Лукас, задумывая «Звездные войны», хотел показать не только бои в космосе, но и разнообразных «монстров». И вот с этим была засада, решать которую пришлось «Фабрике монстров» Фила Типпета — отделу Industrial Light and Magic (подразделение Lucasfilm, занимавшееся визуальными эффектами), чья основная задача была — создавать инопланетян.  </p> <a href="https://habr.com/ru/articles/1025206/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1025206#habracut">Читать далее</a>]]></description>
+
+            <pubDate>Sun, 19 Apr 2026 11:05:33 GMT</pubDate>
+            <dc:creator><![CDATA[Woolfen (Timeweb Cloud)]]></dc:creator>
+
+            <category><![CDATA[star wars]]></category>
+            <category><![CDATA[кинематограф]]></category>
+            <category><![CDATA[спецэффекты]]></category>
+            <category><![CDATA[история]]></category>
+            <category><![CDATA[timeweb_статьи_выходного_дня]]></category>
+            <category><![CDATA[кино]]></category>
+            <category><![CDATA[история кино]]></category>
+            <category><![CDATA[джордж лукас]]></category>
+            <category><![CDATA[аниматроника]]></category>
+        </item>
+
+
+        <item>
+            <title><![CDATA[Механический калькулятор. Как работает арифмометр?]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/companies/beget/articles/1024748/</guid>
+            <link>https://habr.com/ru/companies/beget/articles/1024748/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1024748</link>
+            <description>
+                <![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/65c/629/fbc/65c629fbca3fe791894da73fd1708c0e.jpeg" /><p>Я часто бываю в музеях СССР различных городов и очень люблю рассматривать артефакты ушедшей эпохи. Уже очень давно меня заинтересовал механический калькулятор, который встречается буквально в каждом музее. Но все как-то не было времени разобраться, как он работает. Ведь по уму, калькулятор должен уметь не только складывать и вычитать, но еще умножать и делить. Механическая штуковина это реально может?</p><p>Может.</p><p>Посвящу эту статью подробному разбору принципа механических калькуляторов, которые называются арифмометрами. Сначала сделаем небольшую историческую ретроспективу, а потом подробно пройдемся по устройству самого массового советского устройства для подсчетов. Оно называется “Феликс”, но принцип его работы базируется на колесе Однера. Впрочем, обо всем по-порядку.</p> <a href="https://habr.com/ru/articles/1024748/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1024748#habracut">Читать далее</a>]]></description>
+
+            <pubDate>Mon, 20 Apr 2026 07:05:07 GMT</pubDate>
+            <dc:creator><![CDATA[beget_com (Beget)]]></dc:creator>
+
+            <category><![CDATA[ЭВМ]]></category>
+            <category><![CDATA[Феликс]]></category>
+            <category><![CDATA[Колесо Однера]]></category>
+            <category><![CDATA[арифмометр]]></category>
+            <category><![CDATA[механический калькулятор]]></category>
+            <category><![CDATA[Лейбниц]]></category>
+            <category><![CDATA[Шиккард]]></category>
+            <category><![CDATA[Феликс-М]]></category>
+            <category><![CDATA[механика]]></category>
+            <category><![CDATA[история]]></category>
+        </item>
+
+
+        <item>
+            <title><![CDATA[Кто круче рисует бананы? Сравниваем Nano Banana, Qwen и ChatGPT]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/companies/selectel/articles/1024626/</guid>
+            <link>https://habr.com/ru/companies/selectel/articles/1024626/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1024626</link>
+            <description>
+                <![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/eb7/b5b/59c/eb7b5b59cef50616c23f5d155e9452e3.jpeg" /><p>Нейросети стали часто использоваться в творчестве и нашей повседневной жизни. Листая короткий контент, можно наткнуться на фото и видео, где в роли обзорщиков теперь выступают ИИ-аватары — зачастую это сгенерированные изображения людей с синтезированными голосами. Качество этих материалов пока может уступать творениям, созданным человеком, но грань с реальностью постепенно стирается.</p><p>В статье посмотрим, какая нейросеть из четырех лучше всего подойдет для генерации изображений. Все познается в сравнении, поэтому приступим!</p> <a href="https://habr.com/ru/articles/1024626/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1024626#habracut">Читать далее</a>]]></description>
+
+            <pubDate>Fri, 17 Apr 2026 12:00:41 GMT</pubDate>
+            <dc:creator><![CDATA[TrexSelectel (Selectel)]]></dc:creator>
+
+            <category><![CDATA[selectel]]></category>
+            <category><![CDATA[nanobanana]]></category>
+            <category><![CDATA[chatgpt]]></category>
+            <category><![CDATA[qwen]]></category>
+            <category><![CDATA[ai]]></category>
+            <category><![CDATA[искусственный интеллект]]></category>
+            <category><![CDATA[сгенерированные изображения]]></category>
+            <category><![CDATA[генерация]]></category>
+            <category><![CDATA[генерация изображений]]></category>
+        </item>
+
+
+        <item>
+            <title><![CDATA[Благородные рыцари в космосе. Вспоминаем сериал «Светлячок»]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/companies/ru_mts/articles/1023448/</guid>
+            <link>https://habr.com/ru/companies/ru_mts/articles/1023448/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1023448</link>
+            <description>
+                <![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/d56/916/040/d56916040f7c0f2b6a93e42b5df6c797.webp" /><p>«Светлячок» купается в любви и фанатской преданности. Сложно поверить, что начало его жизни не такое яркое — боссам канала FOX он катастрофически не нравился. На протяжении съемок Джоссу Уидону — создателю — вставляли палки в колеса. То вестерн менеджерам казался не в тему, то герой недостаточно благороден, то часть серий не пустили в эфир. Увы, дальше первого сезона сериал не прожил, а полностью и в верном порядке вышел на DVD в 2003-м.</p><p>Культовый статус сериал получил быстро. Но достойного продолжения, мечты фанатов, — нет. Полнометражка и пачка комиксов — не то.</p> <a href="https://habr.com/ru/articles/1023448/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1023448#habracut">Читать далее</a>]]></description>
+
+            <pubDate>Sat, 18 Apr 2026 08:01:25 GMT</pubDate>
+            <dc:creator><![CDATA[EugeneGrass (МТС)]]></dc:creator>
+
+            <category><![CDATA[научная фантастика]]></category>
+            <category><![CDATA[читальный зал]]></category>
+            <category><![CDATA[светлячок]]></category>
+            <category><![CDATA[firefly]]></category>
+            <category><![CDATA[сериалы]]></category>
+        </item>
+
+
+        <item>
+            <title><![CDATA[Теневой рынок GitHub звезд]]></title>
+            <guid isPermaLink="true">https://habr.com/ru/articles/1025032/</guid>
+            <link>
+                https://habr.com/ru/articles/1025032/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1025032
+            </link>
+            <description>
+                <![CDATA[<img src="https://habrastorage.org/getpro/habr/upload_files/07b/9cd/254/07b9cd254e8bddec9431cb2958794bee.webp" /><p>Многие венчурные фаундеры замечают, что последние 2-3 года происходит "инфляция гитхаб-звезд": их нужно все больше и больше, чтобы производить впечатление.&nbsp;</p><p>И это на удивление важный параметр для венчурных опенсорс-стартапов: по динамике звезд инвесторы частично определяют хайповость, а по форкам - востребованность. Эти метрики я видел много раз в питчах, в том числе на YC demo days. А инвесторы мониторят тренды гитхаба.</p><p>Оказывается, инфляция мне не привиделась: есть целый рынок накрутки звезд! Который гонит вверх ожидания от честных проектов. </p> <a href="https://habr.com/ru/articles/1025032/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1025032#habracut">Читать далее</a>]]></description>
+
+            <pubDate>Sat, 18 Apr 2026 14:17:59 GMT</pubDate>
+            <dc:creator><![CDATA[grokru]]></dc:creator>
+
+            <category><![CDATA[достать звезду]]></category>
+        </item>
+
+
+    </channel>
+</rss>
